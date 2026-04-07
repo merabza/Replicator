@@ -1,4 +1,26 @@
 <Solution>
+  <Folder Name="/ConnectionTools/">
+    <Project Path="../ConnectionTools/ConnectionTools.ConnectTools/ConnectionTools.ConnectTools.csproj" />
+    <Project Path="../ConnectionTools/ConnectionTools.CToolsFactory/ConnectionTools.CToolsFactory.csproj" />
+    <Project Path="../ConnectionTools/ConnectionTools.FTPTools/ConnectionTools.FTPTools.csproj" />
+  </Folder>
+  <Folder Name="/DatabaseTools/">
+    <Project Path="../DatabaseTools/DatabaseTools.DbTools/DatabaseTools.DbTools.csproj" />
+    <Project Path="../DatabaseTools/DatabaseTools.DbToolsFactory/DatabaseTools.DbToolsFactory.csproj" />
+    <Project Path="../DatabaseTools/DatabaseTools.OleDbTools/DatabaseTools.OleDbTools.csproj" />
+    <Project Path="../DatabaseTools/DatabaseTools.SqLiteDbTools/DatabaseTools.SqLiteDbTools.csproj" />
+    <Project Path="../DatabaseTools/DatabaseTools.SqlServerDbTools/DatabaseTools.SqlServerDbTools.csproj" />
+  </Folder>
+  <Folder Name="/ParametersManagement/">
+    <Project Path="../ParametersManagement/ParametersManagement.LibApiClientParameters/ParametersManagement.LibApiClientParameters.csproj" />
+    <Project Path="../ParametersManagement/ParametersManagement.LibDatabaseParameters/ParametersManagement.LibDatabaseParameters.csproj" />
+    <Project Path="../ParametersManagement/ParametersManagement.LibFileParameters/ParametersManagement.LibFileParameters.csproj" />
+    <Project Path="../ParametersManagement/ParametersManagement.LibParameters/ParametersManagement.LibParameters.csproj" />
+  </Folder>
+  <Folder Name="/ReplicatorShared/">
+    <Project Path="../ReplicatorShared/ReplicatorShared.Data/ReplicatorShared.Data.csproj" Id="6b1a2a88-ad81-4fc1-a0bf-351f0f485573" />
+    <Project Path="../ReplicatorShared/ReplicatorShared.Tools/ReplicatorShared.Tools.csproj" Id="0ca8dc96-6c00-4d9f-99c5-546c86cd1373" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
     <File Path="Directory.Build.props" />
@@ -7,8 +29,18 @@
   <Folder Name="/SystemTools/">
     <Project Path="../SystemTools/SystemTools.ApiContracts/SystemTools.ApiContracts.csproj" />
     <Project Path="../SystemTools/SystemTools.BackgroundTasks/SystemTools.BackgroundTasks.csproj" Id="bbd7ae2c-7c91-4c8f-813e-2bb2c9848e43" />
+    <Project Path="../SystemTools/SystemTools.StringMessagesApiContracts/SystemTools.StringMessagesApiContracts.csproj" />
     <Project Path="../SystemTools/SystemTools.SystemToolsShared/SystemTools.SystemToolsShared.csproj" />
     <Project Path="../SystemTools/SystemTools.TestApiContracts/SystemTools.TestApiContracts.csproj" />
+  </Folder>
+  <Folder Name="/ToolsManagement/">
+    <Project Path="../ToolsManagement/ToolsManagement.ApiClientsManagement/ToolsManagement.ApiClientsManagement.csproj" />
+    <Project Path="../ToolsManagement/ToolsManagement.CompressionManagement/ToolsManagement.CompressionManagement.csproj" />
+    <Project Path="../ToolsManagement/ToolsManagement.DatabasesManagement/ToolsManagement.DatabasesManagement.csproj" />
+    <Project Path="../ToolsManagement/ToolsManagement.FileManagersMain/ToolsManagement.FileManagersMain.csproj" />
+  </Folder>
+  <Folder Name="/WebAgentContracts/">
+    <Project Path="../WebAgentContracts/WebAgentContracts.WebAgentDatabasesApiContracts/WebAgentContracts.WebAgentDatabasesApiContracts.csproj" />
   </Folder>
   <Folder Name="/WebSystemTools/">
     <Project Path="../WebSystemTools/WebSystemTools.ApiExceptionHandler/WebSystemTools.ApiExceptionHandler.csproj" />
