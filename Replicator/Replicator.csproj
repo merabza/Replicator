@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <UserSecretsId>b662276f-b803-4d52-b853-33d6e346de76</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Figgle.Fonts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SystemTools\SystemTools.BackgroundTasks\SystemTools.BackgroundTasks.csproj" />
+    <ProjectReference Include="..\..\WebSystemTools\WebSystemTools.ApiExceptionHandler\WebSystemTools.ApiExceptionHandler.csproj" />
+    <ProjectReference Include="..\..\WebSystemTools\WebSystemTools.SerilogLogger\WebSystemTools.SerilogLogger.csproj" />
+    <ProjectReference Include="..\..\WebSystemTools\WebSystemTools.SwaggerTools\WebSystemTools.SwaggerTools.csproj" />
+    <ProjectReference Include="..\..\WebSystemTools\WebSystemTools.TestToolsApi\WebSystemTools.TestToolsApi.csproj" />
+    <ProjectReference Include="..\..\WebSystemTools\WebSystemTools.WindowsServiceTools\WebSystemTools.WindowsServiceTools.csproj" />
+  </ItemGroup>
+
+</Project>

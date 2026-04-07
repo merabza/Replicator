@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/SystemTools/">
+    <Project Path="../SystemTools/SystemTools.ApiContracts/SystemTools.ApiContracts.csproj" />
+    <Project Path="../SystemTools/SystemTools.BackgroundTasks/SystemTools.BackgroundTasks.csproj" Id="bbd7ae2c-7c91-4c8f-813e-2bb2c9848e43" />
+    <Project Path="../SystemTools/SystemTools.SystemToolsShared/SystemTools.SystemToolsShared.csproj" />
+    <Project Path="../SystemTools/SystemTools.TestApiContracts/SystemTools.TestApiContracts.csproj" />
+  </Folder>
+  <Folder Name="/WebSystemTools/">
+    <Project Path="../WebSystemTools/WebSystemTools.ApiExceptionHandler/WebSystemTools.ApiExceptionHandler.csproj" />
+    <Project Path="../WebSystemTools/WebSystemTools.SerilogLogger/WebSystemTools.SerilogLogger.csproj" />
+    <Project Path="../WebSystemTools/WebSystemTools.SwaggerTools/WebSystemTools.SwaggerTools.csproj" />
+    <Project Path="../WebSystemTools/WebSystemTools.TestToolsApi/WebSystemTools.TestToolsApi.csproj" />
+    <Project Path="../WebSystemTools/WebSystemTools.TestToolsData/WebSystemTools.TestToolsData.csproj" />
+    <Project Path="../WebSystemTools/WebSystemTools.WindowsServiceTools/WebSystemTools.WindowsServiceTools.csproj" />
+  </Folder>
+  <Project Path="Replicator/Replicator.csproj" />
+</Solution>
