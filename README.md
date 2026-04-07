@@ -16,6 +16,6 @@ git clone git@github.com:merabza/WebAgentContracts.git WebAgentContracts
 git clone git@github.com:merabza/DatabaseTools.git DatabaseTools  
 git clone git@github.com:merabza/ParametersManagement.git ParametersManagement  
 git clone git@github.com:merabza/ToolsManagement.git ToolsManagement  
-git clone git@github.com:merabza/ApAgentData.git ApAgentData  
+git clone git@github.com:merabza/ReplicatorShared.git ReplicatorShared  
 cd ..
 
