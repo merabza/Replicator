@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Replicator.DependencyInjection;
 using Serilog;
+using SystemTools.SystemToolsShared.DependencyInjection;
 using WebSystemTools.ApiExceptionHandler.DependencyInjection;
 using WebSystemTools.SerilogLogger;
 using WebSystemTools.SwaggerTools.DependencyInjection;
@@ -39,7 +40,12 @@ try
     builder.Services
         .AddSwagger(debugLogger, true, versionCount, appName)
         .AddHostedServices(debugMode)
-        .AddHttpClient();
+        .AddHttpClient()
+        .AddApplication(x =>
+        {
+            x.AppName = appName;
+        })
+;
     // @formatter:on
 
     // ReSharper disable once using
