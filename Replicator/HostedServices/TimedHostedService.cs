@@ -1,40 +1,27 @@
 ﻿using System;
-using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Replicator.Models;
 using SystemTools.BackgroundTasks;
-using SystemTools.SystemToolsShared;
 
 namespace Replicator.HostedServices;
 
 public sealed class TimedHostedService : IHostedService, IDisposable
 {
-    //private static readonly string AppAgentKey = StringExtension.AppAgentAppKey + Environment.MachineName.Capitalize();
-
-    //private readonly AppSettings? _appSettings;
-    //private readonly IHttpClientFactory _httpClientFactory;
+    private readonly IHostApplicationLifetime _appLifetime;
     private readonly ILogger<TimedHostedService> _logger;
     private readonly IProcesses _processes;
-    private readonly IHostApplicationLifetime _appLifetime;
-
 
     private int _executionCount;
-    //private JobStarter? _jobStarter;
     private Timer? _timer;
 
-    public TimedHostedService(ILogger<TimedHostedService> logger, IHttpClientFactory httpClientFactory,
-        IProcesses processes, IConfiguration configuration, IHostApplicationLifetime appLifetime)
+    public TimedHostedService(ILogger<TimedHostedService> logger, IProcesses processes,
+        IHostApplicationLifetime appLifetime)
     {
         _logger = logger;
-        //_httpClientFactory = httpClientFactory;
         _processes = processes;
         _appLifetime = appLifetime;
-        //IConfigurationSection projectSettingsSection = configuration.GetSection(nameof(AppSettings));
-        //_appSettings = projectSettingsSection.Get<AppSettings>();
     }
 
     public void Dispose()
@@ -71,37 +58,12 @@ public sealed class TimedHostedService : IHostedService, IDisposable
         {
             _logger.LogInformation("Timed Hosted Service is working. Count: {Count}, ", count);
         }
-
-        //if (_jobStarter is null)
-        //{
-        //    StartJobs();
-        //}
-        //else
-        //{
-        //    _jobStarter.DoTimerEventAnswer();
-        //}
     }
 
-    //private void StartJobs()
-    //{
-    //    _logger.LogInformation("Start Jobs");
-
-    //    if (string.IsNullOrWhiteSpace(_appSettings?.InstructionsFileName))
-    //    {
-    //        _logger.LogError("InstructionsFileName does not specified in appSettings");
-    //        return;
-    //    }
-
-    //    //ჯობების ნაწილის გაშვება
-    //    _jobStarter = new JobStarter(_logger, _httpClientFactory, _processes, _appSettings.InstructionsFileName,
-    //        AppAgentKey);
-    //    _jobStarter.Run();
-    //}
     private void OnStopping()
     {
         _logger.LogInformation("Application is stopping, cancelling all processes...");
         _processes.CancelProcesses();
         _logger.LogInformation("All processes cancelled");
     }
-
 }

@@ -12,15 +12,12 @@ using WebSystemTools.SerilogLogger;
 using WebSystemTools.SwaggerTools.DependencyInjection;
 using WebSystemTools.TestToolsApi.DependencyInjection;
 using WebSystemTools.WindowsServiceTools;
-//using ReServer.DependencyInjection;
-//using WebSystemTools.ConfigurationEncrypt;
 
 try
 {
     Console.WriteLine("Loading...");
 
     const string appName = "Replicator";
-    //const string appKey = "CF39BBE3-531B-417E-AC20-3605313D0F94";
     const int versionCount = 1;
 
     string header = $"{appName} {Assembly.GetEntryAssembly()?.GetName().Version}";
@@ -38,13 +35,11 @@ try
 
     builder.Host.UseWindowsServiceOnWindows(debugLogger, args);
 
-    //builder.Configuration.AddConfigurationEncryption(debugLogger, appKey);
-
     // @formatter:off
     builder.Services
         .AddSwagger(debugLogger, true, versionCount, appName)
-
-        .AddHostedServices(debugMode).AddHttpClient();
+        .AddHostedServices(debugMode)
+        .AddHttpClient();
     // @formatter:on
 
     // ReSharper disable once using

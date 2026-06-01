@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Replicator.HostedServices;
 using SystemTools.BackgroundTasks;
+using SystemTools.SystemToolsShared;
 
 namespace Replicator.DependencyInjection;
 
@@ -12,7 +13,7 @@ public static class HostedServiceDependencyInjection
     {
         if (debugMode)
         {
-            Console.WriteLine($"{nameof(AddHostedServices)} Started");
+            StShared.ConsoleWriteInformationLine(null, true, $"{nameof(AddHostedServices)} Started");
         }
 
         //სერვისი, რომლის დანიშნულებაცაა რიგში ჩააყენოს და გააკონტროლოს პროცესები, რომლებიც უნდა შესრულდეს
@@ -24,7 +25,7 @@ public static class HostedServiceDependencyInjection
 
         if (debugMode)
         {
-            Console.WriteLine($"{nameof(AddHostedServices)} Finished");
+            StShared.ConsoleWriteInformationLine(null, true, $"{nameof(AddHostedServices)} Finished");
         }
 
         return services;
