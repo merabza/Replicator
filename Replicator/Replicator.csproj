@@ -9,12 +9,12 @@
 
   <ItemGroup>
     <PackageReference Include="Figgle.Fonts" />
+    <PackageReference Include="SystemTools.BackgroundTasks" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\ParametersManagement\ParametersManagement.LibParameters\ParametersManagement.LibParameters.csproj" />
     <ProjectReference Include="..\..\ReplicatorShared\ReplicatorShared.Data\ReplicatorShared.Data.csproj" />
-    <ProjectReference Include="..\..\SystemTools\SystemTools.BackgroundTasks\SystemTools.BackgroundTasks.csproj" />
     <ProjectReference Include="..\..\WebSystemTools\WebSystemTools.ApiExceptionHandler\WebSystemTools.ApiExceptionHandler.csproj" />
     <ProjectReference Include="..\..\WebSystemTools\WebSystemTools.SerilogLogger\WebSystemTools.SerilogLogger.csproj" />
     <ProjectReference Include="..\..\WebSystemTools\WebSystemTools.SwaggerTools\WebSystemTools.SwaggerTools.csproj" />

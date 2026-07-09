@@ -5,5 +5,6 @@
   <ItemGroup>
     <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.27.0.140913" />
     <PackageVersion Include="Figgle.Fonts" Version="0.6.6" />
+    <PackageVersion Include="SystemTools.BackgroundTasks" Version="1.0.9686.26889" />
   </ItemGroup>
 </Project>
