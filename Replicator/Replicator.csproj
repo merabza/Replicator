@@ -9,17 +9,14 @@
 
   <ItemGroup>
     <PackageReference Include="Figgle.Fonts" />
+    <PackageReference Include="ParametersManagement.LibParameters" />
+    <PackageReference Include="ReplicatorShared.Data" />
     <PackageReference Include="SystemTools.BackgroundTasks" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\ParametersManagement\ParametersManagement.LibParameters\ParametersManagement.LibParameters.csproj" />
-    <ProjectReference Include="..\..\ReplicatorShared\ReplicatorShared.Data\ReplicatorShared.Data.csproj" />
-    <ProjectReference Include="..\..\WebSystemTools\WebSystemTools.ApiExceptionHandler\WebSystemTools.ApiExceptionHandler.csproj" />
-    <ProjectReference Include="..\..\WebSystemTools\WebSystemTools.SerilogLogger\WebSystemTools.SerilogLogger.csproj" />
-    <ProjectReference Include="..\..\WebSystemTools\WebSystemTools.SwaggerTools\WebSystemTools.SwaggerTools.csproj" />
-    <ProjectReference Include="..\..\WebSystemTools\WebSystemTools.TestToolsApi\WebSystemTools.TestToolsApi.csproj" />
-    <ProjectReference Include="..\..\WebSystemTools\WebSystemTools.WindowsServiceTools\WebSystemTools.WindowsServiceTools.csproj" />
+    <PackageReference Include="WebSystemTools.ApiExceptionHandler" />
+    <PackageReference Include="WebSystemTools.SerilogLogger" />
+    <PackageReference Include="WebSystemTools.SwaggerTools" />
+    <PackageReference Include="WebSystemTools.TestToolsApi" />
+    <PackageReference Include="WebSystemTools.WindowsServiceTools" />
   </ItemGroup>
 
 </Project>
