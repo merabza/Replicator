@@ -4,9 +4,9 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="ParametersManagement.LibParameters" Version="1.0.9686.34062" />
+    <PackageVersion Include="ParametersManagement.LibParameters" Version="1.0.9686.36920" />
     <PackageVersion Include="ReplicatorShared.Data" Version="1.0.9686.36920" />
-    <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.27.0.140913" />
+    <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.29.0.143774" />
     <PackageVersion Include="Figgle.Fonts" Version="0.6.6" />
     <PackageVersion Include="SystemTools.BackgroundTasks" Version="1.0.9691.25951" />
     <PackageVersion Include="WebSystemTools.ApiExceptionHandler" Version="1.0.9691.25983" />
