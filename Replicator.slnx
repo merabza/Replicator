@@ -19,7 +19,6 @@
   </Folder>
   <Folder Name="/ReplicatorShared/">
     <Project Path="../ReplicatorShared/ReplicatorShared.Data/ReplicatorShared.Data.csproj" Id="6b1a2a88-ad81-4fc1-a0bf-351f0f485573" />
-    <Project Path="../ReplicatorShared/ReplicatorShared.Tools/ReplicatorShared.Tools.csproj" Id="0ca8dc96-6c00-4d9f-99c5-546c86cd1373" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
