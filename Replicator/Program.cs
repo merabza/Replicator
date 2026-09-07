@@ -41,7 +41,7 @@ try
         .AddSwagger(debugLogger, true, versionCount, appName)
         .AddHostedServices(debugMode)
         .AddHttpClient()
-        .AddApplication(x =>
+        .AddApp(x =>
         {
             x.AppName = appName;
         })
