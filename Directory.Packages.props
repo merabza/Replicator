@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project>
-  <PropertyGroup>
-    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.35.0.4138" />
-    <PackageVersion Include="Figgle.Fonts" Version="0.6.6" />
-  </ItemGroup>
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.35.0.4138" />
+        <PackageVersion Include="Figgle.Fonts" Version="0.6.6" />
+    </ItemGroup>
 </Project>

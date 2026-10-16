@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Replicator.HostedServices;
 using SystemTools.BackgroundTasks;
 using SystemTools.SystemToolsShared;

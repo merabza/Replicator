@@ -13,9 +13,9 @@ namespace Replicator.HostedServices;
 
 public sealed class TimedHostedService : IHostedService, IDisposable
 {
-    private readonly IApplication _application;
     private readonly IHostApplicationLifetime _appLifetime;
     private readonly AppSettings? _appSettings;
+    private readonly IApplication _application;
     private readonly IHttpClientFactory _httpClientFactory;
     private readonly ILogger<TimedHostedService> _logger;
     private readonly IProcesses _processes;
