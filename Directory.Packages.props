@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project>
-    <PropertyGroup>
-        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-    </PropertyGroup>
-    <ItemGroup>
-        <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.35.0.4138" />
-        <PackageVersion Include="Figgle.Fonts" Version="0.6.6" />
-    </ItemGroup>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="ParametersManagement.LibParameters" Version="1.0.9790.27216" />
+    <PackageVersion Include="ReplicatorShared.Data" Version="1.0.9790.26674" />
+    <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.35.0.4138" />
+    <PackageVersion Include="Figgle.Fonts" Version="0.6.6" />
+    <PackageVersion Include="SystemTools.BackgroundTasks" Version="1.0.9790.27014" />
+  </ItemGroup>
 </Project>
