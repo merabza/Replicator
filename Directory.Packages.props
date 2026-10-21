@@ -4,10 +4,15 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="ParametersManagement.LibParameters" Version="1.0.9790.30721" />
-    <PackageVersion Include="ReplicatorShared.Data" Version="1.0.9790.26674" />
+    <PackageVersion Include="ParametersManagement.LibParameters" Version="1.0.9790.31419" />
+    <PackageVersion Include="ReplicatorShared.Data" Version="1.0.9790.31480" />
     <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.35.0.4138" />
     <PackageVersion Include="Figgle.Fonts" Version="0.6.6" />
-    <PackageVersion Include="SystemTools.BackgroundTasks" Version="1.0.9790.30360" />
+    <PackageVersion Include="SystemTools.BackgroundTasks" Version="1.0.9790.31339" />
+    <PackageVersion Include="WebSystemTools.ApiExceptionHandler" Version="1.0.9790.31491" />
+    <PackageVersion Include="WebSystemTools.SerilogLogger" Version="1.0.9790.31491" />
+    <PackageVersion Include="WebSystemTools.SwaggerTools" Version="1.0.9790.31491" />
+    <PackageVersion Include="WebSystemTools.TestToolsApi" Version="1.0.9790.31491" />
+    <PackageVersion Include="WebSystemTools.WindowsServiceTools" Version="1.0.9790.31491" />
   </ItemGroup>
 </Project>
