@@ -4,15 +4,15 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="ParametersManagement.LibParameters" Version="1.0.9808.42649" />
-    <PackageVersion Include="ReplicatorShared.Data" Version="1.0.9808.42771" />
+    <PackageVersion Include="ParametersManagement.LibParameters" Version="1.0.9811.42457" />
+    <PackageVersion Include="ReplicatorShared.Data" Version="1.0.9811.42543" />
     <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.35.0.4138" />
     <PackageVersion Include="Figgle.Fonts" Version="0.6.6" />
-    <PackageVersion Include="SystemTools.BackgroundTasks" Version="1.0.9808.33287" />
-    <PackageVersion Include="WebSystemTools.ApiExceptionHandler" Version="1.0.9808.42799" />
-    <PackageVersion Include="WebSystemTools.SerilogLogger" Version="1.0.9808.42799" />
-    <PackageVersion Include="WebSystemTools.SwaggerTools" Version="1.0.9808.42799" />
-    <PackageVersion Include="WebSystemTools.TestToolsApi" Version="1.0.9808.42799" />
-    <PackageVersion Include="WebSystemTools.WindowsServiceTools" Version="1.0.9808.42799" />
+    <PackageVersion Include="SystemTools.BackgroundTasks" Version="1.0.9811.42356" />
+    <PackageVersion Include="WebSystemTools.ApiExceptionHandler" Version="1.0.9811.42557" />
+    <PackageVersion Include="WebSystemTools.SerilogLogger" Version="1.0.9811.42557" />
+    <PackageVersion Include="WebSystemTools.SwaggerTools" Version="1.0.9811.42557" />
+    <PackageVersion Include="WebSystemTools.TestToolsApi" Version="1.0.9811.42557" />
+    <PackageVersion Include="WebSystemTools.WindowsServiceTools" Version="1.0.9811.42557" />
   </ItemGroup>
 </Project>
