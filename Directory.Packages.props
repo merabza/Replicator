@@ -4,8 +4,8 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="ParametersManagement.LibParameters" Version="1.0.9811.42457" />
-    <PackageVersion Include="ReplicatorShared.Data" Version="1.0.9811.42543" />
+    <PackageVersion Include="ParametersManagement.LibParameters" Version="1.0.9818.30580" />
+    <PackageVersion Include="ReplicatorShared.Data" Version="1.0.9818.30712" />
     <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.35.0.4138" />
     <PackageVersion Include="Figgle.Fonts" Version="0.6.6" />
     <PackageVersion Include="SystemTools.BackgroundTasks" Version="1.0.9811.42356" />
